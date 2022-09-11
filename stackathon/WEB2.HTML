@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Album example · Bootstrap v5.2</title>
+    <script src="https://kit.fontawesome.com/ee4aaaa2e4.js" crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+    
+
+<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+<link href="style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Need For Nomad is a leading digital platform for local service businesses in India. 
+            Need For Nomad focuses on expert services clustered
+             around Home, Life and Self and where the user need is customized. Using technology and domain intelligence, 
+            the platform seeks to understand the user need in detail and matches it to verified service professionals.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white"><i class="fas fa-phone pe-2"></i>+91 833023890</a></li>
+            <li><a href="#" class="text-white"><i class="fas fa-envelope pe-2 mb-0"></i>Email us: <a href="" style="color: rgb(72, 119, 249);"> needfornomad@gmail.com </a></a></li>
+            <li><a href="#" class="text-white"><i class="fas fa-map-marker-alt pe-2"></i>Address: Yamnampet, Ghatkesar, Hyderabad-501301</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20%" height="20%" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24">
+          <image href="logo1.jpg" height="100%" width="100%" />
+        </svg>
+        <strong>NEED FOR NOMAD</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main style="background-image: url('WELLNESS.jpg');">
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">FITNESS AND WELLNESS</h1>
+        <p class="lead text-muted"></p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+
+        <div class="container">
+            <hr class="featurette-divider">
+        
+            <div class="row">
+              <div class="box-item col-md-4">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('GYM.jpg');">
+                    <div class="inner color-white">
+                      <h3 class="flip-box-header">GYM</h3>
+                      
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center" style="background-image: url('GYM.jpg');">
+                    <div class="inner color-white">
+                      <h3 class="flip-box-header">GYM</h3>
+                      <div class="dropdown flip-box-button">
+                        <button type="button" class="btn btn-primary dropdown-toggle text-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                          Location
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: black;">
+                          <a class="dropdown-item" href="https://www.truecarehealth.in/blog/best-gyms-in-hyderabad/" style="color:aliceblue">HYDERABAD</a>
+                          <a class="dropdown-item" href="https://www.gympik.com/articles/top-10-best-gyms-fitness-centers-in-delhi-gympik-com " style="color:aliceblue">DELHI</a>
+                          <a class="dropdown-item" href="https://www.gympik.com/articles/gyms-in-mumbai/" style="color:aliceblue">MUMBAI</a>
+                          <a class="dropdown-item" href="https://www.gympik.com/articles/10-best-gyms-in-kolkata-you-should-give-a-shot/" style="color:aliceblue">KOLKATA</a>
+                          <a class="dropdown-item" href="https://www.gympik.com/articles/top-11-gyms-in-mumbai-gympik-com/"style="color:aliceblue">CHENNAI</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--2nd block-->  
+              <div class="box-item col-md-4">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('YOGA.jpg');">
+                    <div class="inner color-white">
+                     <h3 class="flip-box-header">YOGA</h3>
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center" style="background-image: url('YOGA.jpg');">
+                    <div class="inner color-white">
+                      <h3 class="flip-box-header">YOGA</h3>
+                      <div class="dropdown flip-box-button">
+                        <button type="button" class="btn btn-primary dropdown-toggle text-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                          Location
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: black;">
+                          <a class="dropdown-item" href="https://stylesatlife.com/articles/yoga-classes-in-hyderabad/" style="color:aliceblue">HYDERABAD</a>
+                          <a class="dropdown-item" href="https://www.fitternity.com/article/10-best-yoga-classes-in-delhi" style="color:aliceblue">DELHI</a>
+                          <a class="dropdown-item" href="https://stylesatlife.com/articles/yoga-classes-in-mumbai/" style="color:aliceblue">MUMBAI</a>
+                          <a class="dropdown-item" href="https://stylesatlife.com/articles/yoga-classes-in-kolkata/" style="color:aliceblue">KOLKATA</a>
+                          <a class="dropdown-item" href="https://stylesatlife.com/articles/yoga-classes-in-chennai/" style="color:aliceblue">CHENNAI</a>
+                        </div>
+                      </div>
+                      
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--3rd block-->
+              <div class="box-item col-md-4">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('ZUMBA.jpg');">
+                    <div class="inner color-white">
+                      <h3 class="flip-box-header">ZUMBA</h3>
+                      
+                      
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center" style="background-image: url('ZUMBA.jpg');">
+                    <div class="inner color-white">
+                      <h3 class="flip-box-header">ZUMBA</h3>
+                      <div class="dropdown flip-box-button">
+                        <button type="button" class="btn btn-primary dropdown-toggle text-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                          Location
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: black;">
+                          <a class="dropdown-item" href="https://www.cult.fit/lp/cult/center/zumba-classes-in-hyderabad" style="color:aliceblue">HYDERABAD</a>
+                          <a class="dropdown-item" href="https://www.fitternity.com/article/11-best-zumba-classes-in-delhi" style="color:aliceblue">DELHI</a>
+                          <a class="dropdown-item" href="https://www.justdial.com/Mumbai/Zumba-Classes-in-Mumbai-Central/nct-10546803" style="color:aliceblue">MUMBAI</a>
+                          <a class="dropdown-item" href="https://www.fitternity.com/kolkata/zumba-classes" style="color:aliceblue">KOLKATA</a>
+                          <a class="dropdown-item" href="https://www.justdial.com/Chennai/Zumba-Classes/nct-10546803"style="color:aliceblue">CHENNAI</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--4TH block-->  
+              <div class="box-item col-md-4">
+                <div class="flip-box">
+                  <div class="flip-box-front text-center" style="background-image: url('MARTIALARTS.jpg');">
+                    <div class="inner color-white">
+                     <h3 class="flip-box-header">MARTIALARTS</h3>
+                    </div>
+                  </div>
+                  <div class="flip-box-back text-center" style="background-image: url('MARTIALARTS.jpg');">
+                    <div class="inner color-white">
+                      <h3 class="flip-box-header">MARTIALARTS</h3>
+                      <div class="dropdown flip-box-button">
+                        <button type="button" class="btn btn-primary dropdown-toggle text-left" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                          </svg>
+                          Location
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background-color: black;">
+                          <a class="dropdown-item" href="https://www.justdial.com/Hyderabad/Martial-Arts-Training-Centres/nct-10312820/" style="color:aliceblue">HYDERABAD</a>
+                          <a class="dropdown-item" href="https://www.justdial.com/Delhi/Martial-Arts-Training-Centres-in-Burari/nct-10312820" style="color:aliceblue">DELHI</a>
+                          <a class="dropdown-item" href="https://www.justdial.com/Mumbai/Martial-Arts-Training-Centres/nct-10312820/" style="color:aliceblue">MUMBAI</a>
+                          <a class="dropdown-item" href="https://www.whatshot.in/kolkata/set-a-new-physical-tone--aspire-to-become-a-fight-sensei-at-these-martial-arts-classes-in-kolkata-c-26780/" style="color:aliceblue">KOLKATA</a>
+                          <a class="dropdown-item" href="https://lbb.in/chennai/top-marital-classes-in-chennai//" style="color:aliceblue">CHENNAI</a>
+                        </div>
+                      </div>
+                      
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <section class="ftco-section">
+          <div class="col-md-6 d-flex justify-content-center">
+          </div>
+    </section>
+    
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1" align="center" style="color: black;"> &copy;2022 Copyright: <a href="/" style="color:blue">Need For Nomad</a></p>
+  </div>
+</footer>
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>  
+  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</html>
